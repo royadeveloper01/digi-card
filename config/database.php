@@ -63,7 +63,7 @@ return [
         //     ]) : [],
         // ],
 
-        'mysql' => 
+        'mysql' => [
             'driver' => 'mysql',
             'host' => 'db4free.net',
             'port' => '3306',
