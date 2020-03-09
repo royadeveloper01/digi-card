@@ -1,0 +1,145 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color:#ccc;
+}
+
+.card-wrapper {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    perspective: 1000px;
+}
+.card {
+    width: 500px;
+    height: 350px;
+    background-color: blanchedalmond;
+    transform-style: preserve-3d;
+    position:relative;
+    border-radius: inherit;
+    box-shadow:0 15px 60px rgba(0,0,0,0.3);
+
+}
+
+
+.caro{
+    width: 500px;
+    height: 350px;
+    background-color:yellowgreen;
+    transform-style: preserve-3d;
+    position:relative;
+    border-radius: inherit;
+    box-shadow:0 15px 60px rgba(0,0,0,0.3);
+}
+.card-front {
+    display: flex;
+    border-radius: inherit;
+    background: linear-gradient(100deg,
+    rgb(255.255.255) 40%,
+    rgb(38,38,38) 0
+    );
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.left img {
+    width: 80%;
+    height: inherit;
+}
+
+.left h4 {
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.left span {
+    text-transform:uppercase;
+    color:#0d5692;
+}
+
+.right {
+    width: 60%;
+    color: #fff;
+}
+
+.right-content {
+    display:flex;
+    align-items:center;
+    margin:20px 0;
+}
+
+.person {
+     background-color: #1187ac;
+     padding:5px 0 5px 30px;
+     margin:30px 0;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.right-content i {
+    width:35px;
+    height:35px;
+    border:2px solid #fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #1187ac;
+    margin-right: 20px;
+}
+
+.person h4 {
+    text-transform:uppercase;
+}
+
+.phone {
+    padding-left: 30px;
+    color: black;
+}
+
+.email{
+    padding-left: 20px;
+    color: black;
+}
+
+.address {
+    padding-left: 10px;
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.b{
+    font-weight: bold;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 9rem;
+}
+
+.card1{
+    position:relative;
+    left: 24rem;
+}
+
+.card2{
+    position:relative;
+    right: 7rem;
+}
