@@ -18,6 +18,8 @@ Route::get('/', function () {
 Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/profile', 'ProfileController@profile')->middleware('auth');
+Route::post('/updateProfile', 'ProfileController@updateProfile')->middleware('auth');
 
 //category routes
 
@@ -60,4 +62,3 @@ Route::get('/rcards', 'SendCardController@received');
 Route::get('/templates', function () {
     return view('templates');
 });
-Route::get('/home', 'HomeController@index')->name('home');
