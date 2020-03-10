@@ -1,3 +1,6 @@
+
+@extends('layouts.app')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,7 +67,9 @@ box-shadow: -0.5px  -0.5px 15px lightgrey;
   <nav class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark fixed-top" style=" background-image: linear-gradient(315deg, white,; )"  id="navbar-main">
     <div class="container">
       <strong class="navbar-brand">DIGI-CARD</strong>
-     
+      <a class="navbar-brand" href="{{ url('/home') }}"> DIGICARD</a>
+      <a class=" nav-link" href="{{ route('login') }}">Login</a>
+        <a class="nav-link" href="{{ route('register') }}">Register</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -121,7 +126,6 @@ box-shadow: -0.5px  -0.5px 15px lightgrey;
       </div>
      
     </div>
-
     <section class="slice slice-lg">
       <div class="container-fluid" style="background-color:;">
         <h2 class="align-text-center price pb-5" style="text-align:center">How to use it</h2>
@@ -251,3 +255,4 @@ box-shadow: -0.5px  -0.5px 15px lightgrey;
 </body>
 
 </html>
+@endsection
