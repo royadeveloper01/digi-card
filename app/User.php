@@ -36,4 +36,12 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function complementary_cards(){
+        return $this->hasMany(ComplementaryCard::class);
+    }
+
+    public function sendCard(){
+        return $this->hasMany(SendCard::class, 'sender_id');
+    }
 }
