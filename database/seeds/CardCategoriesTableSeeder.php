@@ -12,6 +12,6 @@ class CardCategoriesTableSeeder extends Seeder
     public function run()
     {
         //
-        factory(App\CardCategory::class, 20)->create();
+        factory(App\CardCategory::class, 3)->create();
     }
 }
