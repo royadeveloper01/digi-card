@@ -64,4 +64,4 @@ Route::get('/templates', function () {
 });
 
 //Dashboard Routes
-Route::get('/dash', 'DashboardController@dash');
+Route::get('/dashboard', 'DashboardController@dash');
