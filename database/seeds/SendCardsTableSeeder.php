@@ -12,6 +12,6 @@ class SendCardsTableSeeder extends Seeder
     public function run()
     {
         //
-        factory(App\SendCard::class, 100)->create();
+        factory(App\SendCard::class, 10)->create();
     }
 }

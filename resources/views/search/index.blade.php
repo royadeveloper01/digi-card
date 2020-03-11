@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('search')
+
 
 <div class="container">
     <h1>Laravel 6 Autocomplete Search </h1>   

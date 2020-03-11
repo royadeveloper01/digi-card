@@ -12,6 +12,6 @@ class ComplementaryCardsTableSeeder extends Seeder
     public function run()
     {
         //
-        factory(App\ComplementaryCard::class, 200)->create();
+        factory(App\ComplementaryCard::class, 5)->create();
     }
 }
