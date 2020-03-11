@@ -62,3 +62,6 @@ Route::get('/rcards', 'SendCardController@received');
 Route::get('/templates', function () {
     return view('templates');
 });
+
+//Dashboard Routes
+Route::get('/dash', 'DashboardController@dash');
