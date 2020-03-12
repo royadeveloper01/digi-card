@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>Digi-Card | Dashboard</title>
+  <title>DIGICARD | Dashboard</title>
 
   <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -86,7 +86,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div class="shadow-lg cad ml-3"><i class="nav-icon fas fa-id-card"></i></div>
         <hr>
         <div class="info">
-          <a href="#" class="d-block">About Digi-Card</a>
+          <a href="#" class="d-block">About DIGICARD</a>
         </div>
       </div>
 
@@ -156,7 +156,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">My Digi-Card</h1>
+            <h1 class="m-0 text-dark">DIGICARD</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -218,7 +218,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
             <div class="card card-primary card-outline">
               <div class="card-header">
-                <h5 class="m-0">Digi-Card features</h5>
+                <h5 class="m-0">DigiCard features</h5>
               </div>
               <div class="card-body">
                 <h6 class="card-title">Special Card</h6>
@@ -264,7 +264,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2020 <a href="https://mydigicard.herokuapp.com">My Digi-Card</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2020 <a href="javascript::void(0)">DIGICARD</a>.</strong> All rights reserved.
   </footer>
 </div>
 <!-- ./wrapper -->

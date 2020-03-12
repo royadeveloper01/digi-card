@@ -11,14 +11,12 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12 text-center  opacity-5">
-          <strong class="display-4 text-white mt-5 mb-4 ml-5" style="text-align:center;">DIGI-CARD</strong>
-          <p class=" text-white ml-5" style="font-size:18px;">Home for your sophisticated complimentary cards.</p>
-          <p class=" text-white ml-5" style="font-size:18px;">We give you only the best...</p>
-          
+          <strong class="display-3 text-white mt-5 mb-4 ml-5" style="text-align:center;">DIGICARD</strong>
+          <p class=" text-white ml-5" style="font-size:25px;">Home for your sophisticated complimentary cards.</p>
+          <p class=" text-white ml-5" style="font-size:25px;">We give you only the best...</p>
         </div>
       </div>
     </div>
-    
   </header>
   
   <!-- <div class="shape-container" data-shape-position="bottom">
@@ -34,7 +32,7 @@
       <div class="col-md-8 mb-5">
         <h2 style=" text-align:center">What We Do</h2>
         <hr>
-        <p>Digi-Card helps to create your complimentary card and enables people to access and connect with your business online..</p>
+        <p>DIGICARD helps to create your complimentary card and enables people to access and connect with your business online..</p>
         <p>With this people can view your business card online, helping you connect and create more bridge online than offline..</p>
         </div>
       </div>
@@ -48,7 +46,7 @@
             <div class="position-relative app active card" style="z-index: 10; width:30%">
               <img alt="Image placeholder" src="images/signup-icon-13.png "style=""; class="img-center img-fluid">
               <h5 class=" text-center">Sign up</h5>
-              <p class=" d-flex text-center" >Start with registering and log-in to your account</p>
+              <p class=" d-flex text-center" >Start with registering and login to your account</p>
             </div>
             <div class="position-relative app active card" style="z-index: 10;width:30%">
               <img alt="Image placeholder" src="images/38873_sign_256x256.png" class="img-center img-fluid">
@@ -64,7 +62,6 @@
     </div>
   </section>
   
-    
   <section class="slice slice-lg">
       <div class="container-fluid mt-5 " style="background-color:grey; ;">
         <div class="row row-grid align-items-center justify-content-around">
@@ -82,13 +79,9 @@
               </form>
               <div class="text-center mb-2">
                 <button type="button" class="btn btn-dark rounded-pill">Leave your feedback</button>
-                
               </div>
-                
-              
           </div>
           </div>
           </div>
            </div>
-
 @endsection
