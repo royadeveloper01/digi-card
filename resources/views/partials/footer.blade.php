@@ -3,12 +3,6 @@
     
       
     <div class="row pt-md">
-      <div class="col-lg-4 mb-5 mb-lg-0 mt-1">
-        <a>
-          <strong style="color: white; ">DIGI-CARD</strong>
-        </a>
-        <p></p>
-      </div>
       <div class="col-lg-2 col-6 col-sm-4 ml-lg-auto mb-5 mb-lg-0 text-white">
         <h6 class="heading mt-5 text-white">Account</h6>
         <ul class="list-unstyled ">
@@ -36,7 +30,7 @@
     <div class="row align-items-center justify-content-md-between py-4 mt-4 delimiter-top">
       <div class="col-md-6">
         <div class="copyright text-sm text-white font-weight-bold text-center text-md-left">
-          &copy; 2020, All rights reserved.
+        <a href="javascript::void(0)">DIGICARD</a>&copy; 2020, All rights reserved.
         </div>
       </div>
       <div class="col-md-6">
@@ -77,11 +71,3 @@
 
 </body>
 </html>
-
-
-  {{--   <footer class="py-4 bg-dark mt-5">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright 2020 <a href="javascript::void(0)">Digicard</a></i></p>
-    </div>
-    <!-- /.container -->
-  </footer> --}}

@@ -1,33 +1,31 @@
 
- <!-- Navigation -->
- <nav class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark fixed-top bg-dark" style=" background-image: linear-gradient(315deg, white,; )"  id="navbar-main">
-    <div class="container">
-      <strong class="navbar-brand">DIGI-CARD</strong>
-      <a class="navbar-brand" href="{{ url('/') }}"> <img src="" alt="DIGICARD"></a>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-       <div class="collapse navbar-collapse" id="navbarResponsive">
-           <ul class="navbar-nav ml-auto">
+    <!-- Navigation -->
+    <nav class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark fixed-top bg-dark" style=" background-image: linear-gradient(315deg, white,; )"  id="navbar-main">
+        <div class="container">
+        <strong class="navbar-brand">DIGICARD</strong>
+        <a class="navbar-brand" href="{{ url('/') }}"> <img src="" alt="DIGICARD"></a>
         
-              <li class="nav-item">
-                 <a class=" nav-link " href="{{ route('login') }}" style="color:white">Login</a>
-             </li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-               <li class="nav-item">
-                 <a href="{{ route('register') }}" class="nav-link "  style="color:white">Register</a>
-               </li>
-          
-        </ul>
-      </div> 
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+            
+                <li class="nav-item">
+                    <a class=" nav-link " href="{{ route('login') }}" style="color:white">Login</a>
+                </li>
 
-    </div>
-  </nav>
+                <li class="nav-item">
+                    <a href="{{ route('register') }}" class="nav-link "  style="color:white">Register</a>
+                </li>
+                </ul>
+            </div> 
+        </div>
+    </nav>
 
 
-  {{-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark relative-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark relative-top">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/home') }}">
                     {{ config('app.name', 'DIGICARD') }}
@@ -75,7 +73,7 @@
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
-                                    <a class="dropdown-item" href="{{ url('/profile')}}">profile</a>
+                                    <a class="dropdown-item" href="{{ url('/profile')}}">Profile</a>
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
@@ -85,4 +83,4 @@
                     </ul>
                 </div>
             </div>
-        </nav>  --}}
+        </nav> 
