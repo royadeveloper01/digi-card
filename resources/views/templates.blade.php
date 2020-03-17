@@ -11,15 +11,15 @@
                 <div class="card-body">
                     <h5 class="card-title">John Doe</h5>
                   </div>
-                <ul class="list-group list-group-flush">
+                  <ul class="list-group list-group-flush">
                     <li class="list-group-item">Software Developer</li>
                     <li class="list-group-item">68 Asa Rd</li>
                     <li class="list-group-item">2349016052937</li>
                     <li class="list-group-item"><p>www.blogerand.com</p>  </li>
                   </ul>
+              </div>
             </div>
           </div>
-        </div>
         
         <div class="well">
           <div class="card">
@@ -39,7 +39,4 @@
         </div>
       </div>
    </div>
-
-  
-
 @endsection

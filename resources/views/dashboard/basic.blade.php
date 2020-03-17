@@ -111,7 +111,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </a>
               </li>
               <li class="nav-item right-content">
-                <a href="#" class="nav-link ">
+                <a href="{{ url('/templates') }}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>View Cards</p> <span class="right badge badge-dark"><i class="far fa-eye mr-2"></i></span>
                 </a>
@@ -127,7 +127,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
           </li>
           <hr>
           <li class="nav-item ">
-          <a href="#" class="nav-link bg-purple">
+          <a href="{{ url('/profile') }}" class="nav-link bg-purple">
             <i class="fas fa-id-badge mr-3"></i>
               <p>
                 Profile
