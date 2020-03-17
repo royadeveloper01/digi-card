@@ -13,7 +13,7 @@ class ProfileController extends Controller
     //
     public function profile(){
 
-        return view('profiles.profile');
+        return view('profiles.view');
     }
 
     
@@ -25,7 +25,6 @@ class ProfileController extends Controller
             'email' => 'required',
             'bio' => 'required',
             'gender' => 'required',
-              
         ]);
         
         $profiles = new Profile;
